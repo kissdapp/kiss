@@ -1,0 +1,113 @@
+body {
+  background: #f1f1f1;
+  padding: 30px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+section.main {
+  min-height: calc(100vh - 80px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #F9F9F9;
+  background: #FE4365;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.lato-100 {
+  font-family: 'Lato', sans-serif!important;
+  font-weight: 100!important;
+}
+
+.anton-400 {
+  font-family: 'Anton', sans-serif!important;
+  font-weight: 400!important;
+}
+
+.roboto-slab {
+  font-family: 'Roboto Slab', serif;
+  font-weight: 100!important;
+}
+
+.logo {
+  font-size: 150px;
+  margin: 0;
+}
+
+.logo.small {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.logo b {
+  font-weight: 700;
+}
+
+.desc {
+  font-size: 30px;
+  margin: 0px 40px 20px;
+  color: #F9F9F9;
+}
+
+.MuiInputBase-root, .MuiSelect-icon, .MuiFormLabel-root,
+.MuiInputBase-input, .MuiOutlinedInput-input, .Mui-disabled {
+  color: #f9f9f9!important;
+}
+
+.MuiInput-underline:before {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.42)!important;
+}
+
+.MuiOutlinedInput-root.Mui-disabled .MuiOutlinedInput-notchedOutline {
+  border-color: rgba(244,244,244, 0.9)!important;
+}
+
+#decrypt {
+  color: #FE4365!important;
+}
+
+section.list .MuiInputBase-root, section.list .MuiSelect-icon, section.list .MuiFormLabel-root,
+section.list .MuiInputBase-input, section.list .MuiOutlinedInput-input, section.list .Mui-disabled {
+  color: #FE4365!important;
+}
+
+section.list .MuiInput-underline:before {
+  border-bottom: 1px solid #FE4365!important;
+}
+
+section.list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #F9F9F9;
+
+  margin-top: -170px;
+  padding: 0px 160px;
+  opacity: 0
+}
+
+.fade-in {
+  opacity: 1!important;
+  transition: opacity 0.8s!important;
+}
+
+.encrypt {
+  position: absolute;
+  /* top: 0; */
+  margin-top: 140px;
+}
