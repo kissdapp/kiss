@@ -85,7 +85,7 @@ class App extends Component {
 
     const txObj = sendTxBuild({
       from: myAddress,
-      to: config.CONTRACT_ADDRESS,
+      to: window.CONTRACT_ADDRESS,
       methodName: 'setKissInfo',
       params: {
         label,
@@ -110,7 +110,7 @@ class App extends Component {
         from: myAddress,
         methodName: 'getAllKissInfos',
         params: {},
-        to: config.CONTRACT_ADDRESS,
+        to: window.CONTRACT_ADDRESS,
       })
     ).execute()
 
